@@ -10,12 +10,7 @@ const KEY_LS = import.meta.env.VITE_KEY_LS
 if (typeof list == 'string') {
   TODO_LS = JSON.parse(list)
 } else {
-  TODO_LS = [{
-    id: 'string',
-    name: 'send mail boss',
-    isComplete: false,
-    description: 'Enviar informe de componentes a pol@mail.com'
-  }]
+  TODO_LS = []
   localStorage.setItem(KEY_LS, JSON.stringify(TODO_LS))
 }
 
