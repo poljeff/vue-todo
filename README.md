@@ -13,7 +13,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 ## Project Setup
 
 ```sh
-cd prueba-frontend
+cd vue-todo
 pnpm install
 ```
 
